@@ -7,3 +7,6 @@ If I just invoke assembly:single goal with Profile1 or Profile2 it's working fin
 Failed to execute goal com.soebes.maven.plugins:iterator-maven-plugin:0.3:invoker (default-cli) on project Task4Maven_TwoProfiles_Invoker: Unable to parse configuration of mojo com.soebes.maven.plugins:iterator-maven-plugin:0.3:invoker for parameter goals: Cannot assign configuration entry 'goals' with value 'assembly:single' of type java.lang.String to property of type java.util.List -> [Help 1]
 
 Task of this project - to get two archives containing filtered file A in one archive and filtered file B in another archive.
+
+Structure of the project as picture:
+https://cloud.githubusercontent.com/assets/7958589/5617389/52bdc7f6-951f-11e4-96db-2cf26df95c24.jpg
